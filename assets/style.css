@@ -96,14 +96,14 @@ a {
 /* Footer */
 .footer {
   padding: 20px;
-  text-align: left;
+  text-align: center;
   background: #2C2F33;
 }
 
 .statusFooter {
   padding: 0px;
   font-size: 70% !important;
-  text-align: left;
+  text-align: center;
   background: #2C2F33;
   position: fixed;
   bottom: 0;
