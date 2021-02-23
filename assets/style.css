@@ -34,9 +34,9 @@ body {
 
 /* Increase the font size of the heading */
 .header h1 {
+    font-size: 20px;
     position: relative;
     color: #ffffff;
-    font-size: 14rem;
     line-height: 0.9;
     text-align: center;
 }
