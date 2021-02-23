@@ -13,11 +13,21 @@ body {
 
 /* Header/logo Title */
 .header {
-  background-image: url(https://wallpapertag.com/wallpaper/full/0/6/3/49612-mountains-wallpaper-1920x1080-for-android-40.jpg);
   padding: 20px;
   text-align: center;
-  background: #7289DA;
+  /*background: #7289DA;*/
   color: white;
+}
+.header::before {
+  content: "";
+  background-image: url('https://wallpapertag.com/wallpaper/full/0/6/3/49612-mountains-wallpaper-1920x1080-for-android-40.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
 }
 
 /* Increase the font size of the heading */
