@@ -1,10 +1,7 @@
-* {
-    font-family: "Poiret One", sans-serif;
-}
-
 /* Style the body */
 body {
     background-color: #171a1b;
+    font-family: 'Satisfy', cursive;
     margin: 0;
     box-sizing: border-box;
     color: white;
@@ -22,6 +19,7 @@ body {
     justify-content: center;
     background-image: url('https://wallpapertag.com/wallpaper/full/0/6/3/49612-mountains-wallpaper-1920x1080-for-android-40.jpg');
     background-size: cover;
+    background-position: bottom center;
 }
 
 .header::before {
@@ -31,12 +29,17 @@ body {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.452);
 }
 
 /* Increase the font size of the heading */
 .header h1 {
     font-size: 20px;
+    position: relative;
+    color: #ffffff;
+    font-size: 14rem;
+    line-height: 0.9;
+    text-align: center;
 }
 
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until
@@ -118,16 +121,6 @@ a {
     padding: 20px;
     text-align: center;
     background: #2C2F33;
-}
-
-.statusFooter {
-    padding: 0px;
-    font-size: 70% !important;
-    text-align: center;
-    background: #2C2F33;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other
