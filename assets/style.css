@@ -1,0 +1,10 @@
+ @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+/* Main Style */
+body {
+    background-color: #171a1b;
+    font-family: 'Playball', cursive !important;
+}
+
+video {
+   filter: brightness(75%);
+}
