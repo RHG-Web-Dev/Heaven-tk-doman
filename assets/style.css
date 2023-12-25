@@ -1,4 +1,6 @@
- @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@font-face{font-family:"ITC Viner Hand W05 Regular";src:url("//fast.fonts.net/dv2/14/bc7db2f7-64c5-4152-ae7c-031b034c516d.woff2?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&projectid=74f39a9d-a5dc-405f-9690-1c1fd4590ae4") format("woff2"),url("//fast.fonts.net/dv2/3/2b95aaf0-4e5f-454a-bdea-eed1bdd49a75.woff?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&projectid=74f39a9d-a5dc-405f-9690-1c1fd4590ae4") format("woff")}
+
 /* Main Style */
 body {
     background-color: #171a1b;
@@ -7,4 +9,13 @@ body {
 
 video {
    filter: brightness(75%);
+}
+
+
+.design-font {
+    font-family: "ITC Viner Hand W05 Regular";
+}
+
+.link {
+	transition: all 0.2s ease-in-out;
 }
